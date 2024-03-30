@@ -1,0 +1,43 @@
+{
+    "name": "your-username/expense-tracker-app",
+    "description": "Expense Tracker Application",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your.email@example.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^8.0",
+        "laravel/ui": "^3.0"
+        // Add any additional dependencies here
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.0",
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^9.0"
+        // Add any additional development dependencies here
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+        // Add any additional scripts here
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
